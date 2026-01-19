@@ -1,11 +1,12 @@
-0:
-  task_type: chat
-  messages: "Can you recommend me some recipe? I want to cook a fancy lunch for my alien friends."
+taskList:
+  -
+    task_type: chat
+    messages: "Can you recommend me some recipe? I want to cook a fancy lunch for my alien friends."
 
-1:
-  task_type: chat
-  messages: "So what would an alien from Andromeda would like?"
+  -
+    task_type: chat
+    messages: "So what would an alien from Andromeda would like?"
 
-2:
-  task_type: chat
-  messages: "Thanks, bye!"
+  -
+    task_type: chat
+    messages: "Thanks, bye!"

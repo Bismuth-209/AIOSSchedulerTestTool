@@ -41,7 +41,12 @@ class AgentManager:
 
         def load_agent_task():
             with open(agent_path, 'r', encoding="utf-8") as f:
-                tasks = yaml.safe_load(f)
+                tasks = yaml.safe_load(f).get("taskList")
+                if not tasks:
+                    with open(agent_output_path, 'r', encoding="utf-8") as f:
+                        f.write("TaskList not found or empty.")
+                        agent.finish_task_import()
+                        return
                 task_num = len(tasks)
                 # todo: asynchronized task loading
                 for i in range(task_num):

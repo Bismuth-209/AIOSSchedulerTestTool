@@ -1,19 +1,20 @@
-0:
-  task_type: chat
-  messages: "早晨起来头昏脑胀是什么原因"
+taskList:
+  -
+    task_type: chat
+    messages: "早晨起来头昏脑胀是什么原因"
 
-1:
-  task_type: file_op
-  messages: "Create a directory /AIOSTempDir/Health"
+  -
+    task_type: file_op
+    messages: "Create a directory /AIOSTempDir/Health"
 
-2:
-  task_type: file_op
-  messages: "Create a file /AIOSTempDir/Health/reason.txt"
+  -
+    task_type: file_op
+    messages: "Create a file /AIOSTempDir/Health/reason.txt"
 
-3:
-  task_type: file_op
-  messages: "将落枕的可能原因写入文件'/AIOSTempDir/Health/reason.txt'中"
+  -
+    task_type: file_op
+    messages: "将落枕的可能原因写入文件'/AIOSTempDir/Health/reason.txt'中"
 
-4:
-  task_type: file_op
-  messages: "Write content 'that's all possible reasons of stiff neck.' at the end of file above"
+  -
+    task_type: file_op
+    messages: "Write content 'that's all possible reasons of stiff neck.' at the end of file above"
