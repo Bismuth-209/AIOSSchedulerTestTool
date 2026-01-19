@@ -10,7 +10,7 @@
 - 将文件放置于形似如下结构的文件夹内
   |- AIOS
     |- ...
-    |- SchedulerTool
+    |- multi_agents
       |- 项目文件
     |- ...
 
@@ -26,7 +26,7 @@
 
 - 以AIOS为根目录启动agents_simulate_terminal.py
   - python agents_simulate_terminal.py
-- 选择场景配置信息所在文件夹（默认为./SchedulerTool/resources
+- 选择场景配置信息所在文件夹（默认为./multi_agents/resources
 - 输入start启动
 - 工具会自动显示当前运行进度
 
