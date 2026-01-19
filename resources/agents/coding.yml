@@ -1,0 +1,20 @@
+taskList:
+  -
+    task_type: chat
+    messages: "Hello! Who are you?"
+
+  -
+    task_type: chat
+    messages: "Please help me write a function of counting Fibonacci in C++"
+
+  -
+    task_type: file_op
+    messages: "Create a directory /AIOSTempDir/Coding"
+
+  -
+    task_type: file_op
+    messages: "Create a file /AIOSTempDir/Coding/fib.cpp"
+
+  -
+    task_type: file_op
+    messages: "write the fibonacci c++ function above into file /AIOSTempDir/Coding/fib.cpp"
