@@ -1,0 +1,73 @@
+0:
+  task_type: chat
+  messages: ""
+  with_history: # optional, boolean value, true if not provide
+  time_interval: # optional, agent will pause for seconds after the task
+
+1:
+  task_type: chat_json
+  messages: ""
+  response_format: # optional
+  with_history: # optional, boolean value, true if not provide
+  time_interval: # optional, agent will pause for seconds after the task
+
+2:
+  task_type: chat_tool
+  messages: ""
+  tools: # todo
+  with_history: # optional, boolean value, true if not provide
+  time_interval: # optional, agent will pause for seconds after the task
+
+3:
+  task_type: tool
+  messages: ""
+  tools: # todo
+  with_history: # optional, boolean value, true if not provide
+  time_interval: # optional, agent will pause for seconds after the task
+
+4:
+  task_type: file_op
+  messages: ""
+  tools: # optional, todo
+  with_history: # optional, boolean value, true if not provide
+  time_interval: # optional, agent will pause for seconds after the task
+
+5:
+  task_type: mem_create
+  content: 
+  metadata: 
+  time_interval: # optional, agent will pause for seconds after the task
+
+6:
+  task_type: mem_get
+  memory_id: 
+  time_interval: # optional, agent will pause for seconds after the task
+
+7:
+  task_type: mem_update
+  memory_id: 
+  content: 
+  metadata: 
+  time_interval: # optional, agent will pause for seconds after the task
+
+8:
+  task_type: mem_delete
+  memory_id:
+  time_interval: # optional, agent will pause for seconds after the task
+
+9:
+  task_type: mem_search
+  query:
+  k: # optional, 3 if not provide
+  time_interval: # optional, agent will pause for seconds after the task
+
+10:
+  task_type: mem_create_agentic
+  content:
+  metadata:
+  time_interval: # optional, agent will pause for seconds after the task
+
+11:
+  task_type: mount
+  root_dir:
+  time_interval: # optional, agent will pause for seconds after the task
